@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Item from "./Item";
+import Filter from "./Filter";
+import items from "../data/items";
 
 function ShoppingList({ items }) {
   const [selectedCategory, setSelectedCategory] = useState("All");
